@@ -393,15 +393,15 @@ if (consultar != null) {
 
 function enlaceMoto() {
     sessionStorage.setItem("vehiculo", "1")
-    window.location.href = '/consultar.html';
+    window.location.href = 'https://oscarandd.github.io/EmpresaTransporteResponsiva/consultar.html';
 }
 function enlaceCarro() {
     sessionStorage.setItem("vehiculo", "2")
-    window.location.href = '/consultar.html';
+    window.location.href = 'https://oscarandd.github.io/EmpresaTransporteResponsiva/consultar.html';
 }
 function enlacePesado() {
     sessionStorage.setItem("vehiculo", "3")
-    window.location.href = '/consultar.html';
+    window.location.href = 'https://oscarandd.github.io/EmpresaTransporteResponsiva/consultar.html';
 }
 
 
