@@ -222,8 +222,8 @@ function agregarFila(Vehiculo) {
         `<td>${Vehiculo.tipo}</td>
         <td ">${Vehiculo.matricula}</td>
         <td class="idProp">${Vehiculo.idPropietario}</td>
-        <td class="dropdown-menu-start  ">
-            <button  class="border-0 bg-transparent" data-bs-toggle="dropdown"><iclass="bi bi-info-circle-fill "></i></button>
+        <td class="dropdown-menu-start">
+            <button  class="border-0 bg-transparent" data-bs-toggle="dropdown"><i class="bi bi-info-circle-fill "></i></button>
             <div class="dropdown-menu overflow-auto mw-100">
                 <p  class="dropdown-item " id="detalles">${detallesVehiculo}</p>
             </div>
